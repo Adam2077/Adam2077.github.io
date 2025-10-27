@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page_title"></title>
+    <meta name="description" id="meta_description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">Adam Kalivoda</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about" id="nav_about"></a></li>
+                    <li><a href="#webdev" id="nav_webdev"></a></li>
+                    <li><a href="#cnc" id="nav_cnc"></a></li>
+                    <li><a href="#network" id="nav_network"></a></li>
+                    <li><a href="#contact" id="nav_contact"></a></li>
+                    <li class="lang-switcher">
+                        <button id="lang_cz" onclick="setLanguage('cz')" class="active">CZ</button>
+                        <button id="lang_en" onclick="setLanguage('en')">EN</button>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section-container" data-aos="fade-up">
+            <div class="container">
+                <img src="assets/img.png" alt="Profile Picture" class="profile-pic">
+                <h1 class="section-title" id="about_title"></h1>
+                <p class="section-subtitle" id="about_subtitle" data-aos="fade-up" data-aos-delay="100"></p>
+            </div>
+        </section>
+
+        <section id="webdev" class="section-container" data-aos="fade-up">
+            <div class="container grid-layout">
+                <div class="section-header" data-aos="fade-right">
+                    <h2 class="section-title" id="webdev_title"></h2>
+                    <p id="webdev_text"></p>
+                </div>
+                <div class="tech-stack" data-aos="fade-left" data-aos-delay="200">
+                    <h3 id="webdev_tech_title"></h3>
+                    <div class="icons">
+                        <i class="fab fa-html5" data-aos="zoom-in" data-aos-delay="300"></i>
+                        <i class="fab fa-css3-alt" data-aos="zoom-in" data-aos-delay="400"></i>
+                        <i class="fab fa-js" data-aos="zoom-in" data-aos-delay="500"></i>
+                        <i class="fab fa-php" data-aos="zoom-in" data-aos-delay="600"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cnc" class="section-container" data-aos="fade-up">
+            <div class="container grid-layout">
+                <div class="section-header" data-aos="fade-right">
+                    <h2 class="section-title" id="cnc_title"></h2>
+                    <p id="cnc_text"></p>
+                    <p><strong id="cnc_machines_label"></strong> DMC Maho, Haas VF2, Emco Famup MCX1200 (Heidenhain
+                        iTNC530).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="network" class="section-container" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-title" id="network_title"></h2>
+                <p id="network_text" data-aos="fade-up"></p>
+            </div>
+        </section>
+
+        <section id="contact" class="section-container" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-title" id="contact_title"></h2>
+                <p id="contact_text" data-aos="fade-up"></p>
+                <ul class="contact-links" data-aos="fade-up" data-aos-delay="200">
+                    <li><a href="mailto:zakazky@adamkalivoda.fun"><span><span id="contact_email"></span></span> <i
+                                class="fas fa-envelope"></i></a></li>
+                    <li><a href="tel:730913487"><span><span id="contact_phone"></span></span> <i
+                                class="fas fa-phone"></i></a></li>
+                    <li><a href="https://github.com/Adam2077" target="_blank"><span><span
+                                    id="contact_github"></span></span> <i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <a id="scrollToTopBtn" href="#about"><i class="fas fa-arrow-up"></i></a>
+</body>
+
+</html>
