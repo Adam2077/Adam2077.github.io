@@ -33,9 +33,8 @@ const translations = {
         contact_title: "Napište mi",
         contact_text: "Máte zájem o spolupráci, nebo jen dotaz? Neváhejte mě kontaktovat.",
         contact_email: "Email",
-        contact_phone: "Telefon",
-        contact_github: "GitHub",
-        contact_linkedin: "LinkedIn",
+        // contact_phone: "Telefon",
+        contact_github: "GitHub"
     },
     en: {
         // Meta
@@ -71,9 +70,9 @@ const translations = {
         contact_title: "Let's Get in Touch",
         contact_text: "Are you interested in a collaboration or just have a question? Don't hesitate to contact me.",
         contact_email: "Email",
-        contact_phone: "Phone",
-        contact_github: "GitHub",
-        contact_linkedin: "LinkedIn",
+        // contact_phone: "Phone",
+        contact_github: "GitHub"
     }
 
 };
+
