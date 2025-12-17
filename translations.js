@@ -13,20 +13,20 @@ const translations = {
 
         // About Section
         about_title: "Adam Kalivoda - Full-Stack Web Developer & CNC Specialista",
-        about_subtitle: "Propojuji svět digitálních technologií s precizní strojírenskou výrobou. Od návrhu moderních webových aplikací přes správu firemní IT infrastruktury až po programování CNC strojů přináším komplexní a efektivní řešení.",
+        about_subtitle: "",
 
         // WebDev Section
         webdev_title: "Vývoj moderních webových aplikací",
-        webdev_text: "S více než čtyřletou praxí se specializuji na tvorbu dynamických a plně responzivních webových stránek. Mým cílem je vždy čistý, efektivní kód a co nejrychlejší načítání.",
+        webdev_text: "S více než tříletou praxí se specializuji na tvorbu dynamických a plně responzivních webových stránek. Mým cílem je vždy čistý, efektivní kód a co nejrychlejší načítání.",
         webdev_tech_title: "Používané technologie",
 
         // CNC Section
         cnc_title: "Precizní CNC programování a obsluha",
-        cnc_text: "Dva roky působím ve firmě Sivon s.r.o. jako CNC operátor a programátor. Zajišťuji kompletní výrobní proces od 3D modelování v Autodesk Fusion 360, přes tvorbu G-kódu, až po finální obsluhu stroje.",
+        cnc_text: "Působím ve firmě Sivon s.r.o. jako CNC operátor a programátor. Zajišťuji kompletní výrobní proces od 3D modelování v Autodesk Fusion 360, přes tvorbu G-kódu, až po finální obsluhu stroje.",
         cnc_machines_label: "Zkušenosti se stroji:",
 
         // Network Section
-        network_title: "Správa systémů a sítí (Sivon s.r.o.)",
+        network_title: "Správa systémů a sítí",
         network_text: "Ve společnosti Sivon s.r.o. se aktivně podílím na správě interních systémů a síťové infrastruktury. Mou zodpovědností je zajištění stability, bezpečnosti a efektivního chodu firemních serverů a sítí.",
 
         // Contact Section
@@ -51,20 +51,20 @@ const translations = {
 
         // About Section
         about_title: "Adam Kalivoda - Full-Stack Web Developer & CNC Specialist",
-        about_subtitle: "I connect the world of digital technology with precision engineering. From designing modern web applications and managing corporate IT infrastructure to programming CNC machines, I deliver comprehensive and effective solutions.",
+        about_subtitle: "",
 
         // WebDev Section
         webdev_title: "Modern Web Application Development",
-        webdev_text: "With over four years of experience, I specialize in creating dynamic and fully responsive websites. My goal is always to produce clean, efficient code and ensure the fastest possible loading times.",
+        webdev_text: "With over three years of experience, I specialize in creating dynamic and fully responsive websites. My goal is always to produce clean, efficient code and ensure the fastest possible loading times.",
         webdev_tech_title: "Technologies I Use",
 
         // CNC Section
         cnc_title: "Precision CNC Programming and Operation",
-        cnc_text: "I have been working for two years at Sivon s.r.o. as a CNC Operator and Programmer. I manage the entire production process, from 3D modeling in Autodesk Fusion 360 and G-code creation to final machine operation.",
+        cnc_text: "I am currently working at Sivon s.r.o. as a CNC Operator and Programmer. I manage the entire production process, from 3D modeling in Autodesk Fusion 360 and G-code creation to final machine operation.",
         cnc_machines_label: "Machine Experience:",
 
         // Network Section
-        network_title: "System and Network Administration (Sivon s.r.o.)",
+        network_title: "System and Network Administration",
         network_text: "At Sivon s.r.o., I am actively involved in the administration of internal systems and network infrastructure. My responsibilities include ensuring the stability, security, and efficient operation of the company's servers and networks.",
 
         // Contact Section
@@ -75,4 +75,5 @@ const translations = {
         contact_github: "GitHub",
         contact_linkedin: "LinkedIn",
     }
+
 };
